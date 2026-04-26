@@ -23,7 +23,7 @@
 ---
 
 ## 2. Cardinalidade (Labels por Ponto)
-
+![Frequência de labels em escala logarítmica](cardinalidade_eurlex_amazoncat.png)
 | Percentil | Eurlex-4K | AmazonCat-13K |
 |---|---|---|
 | p25 | 5 | 3 |
@@ -37,7 +37,7 @@
 ---
 
 ## 3. Cauda Longa de Labels
-
+![Cauda Longa](cauda_longa_eurlex_amazoncat.png)
 | Faixa | Eurlex-4K | AmazonCat-13K |
 |---|---|---|
 | Labels sem ocorrência no treino | 207 (5,2%) | 0 (0,0%) |
@@ -96,7 +96,7 @@
 ---
 
 ## 7. Síntese Comparativa
-
+![comparacao geral](comparacao_eurlex_amazoncat.png)
 | Critério | Eurlex-4K | AmazonCat-13K |
 |---|---|---|
 | Escala | Pequeno (15k treino) | Grande (1,2M treino) |

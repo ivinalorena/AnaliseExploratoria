@@ -1,3 +1,13 @@
+# O que é cada dataset
+ 
+**Eurlex-4K**: Documentos jurídicos da União Europeia classificados em categorias do vocabulário EUROVOC. Pequeno (15k docs), especializado, com cauda longa moderada e 6,4% de zero-shot.
+
+**AmazonCat-13K**: Descrições e reviews de produtos Amazon classificados em 13k categorias. Grande (1,2M docs), bem balanceado, único sem zero-shot e com embeddings pré-computados.
+
+**Amazon-670K**: Produtos Amazon com 670k categorias — a grande maioria rarísima. Caso extremo de cauda longa: 83% das categorias têm 5 ou menos exemplos no treino.
+
+**Wiki10-31K**: Artigos da Wikipedia com até 30 categorias por documento. Destaca-se pela cardinalidade alta — média de 18,6 labels por doc, contra ~5 nos outros três.
+
 # Comparação geral dos 4 datasets
 ## Posicionamento como Proxy
 
